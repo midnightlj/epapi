@@ -13,9 +13,6 @@ router.get("/", (req, res) => {
 
 
 router.get("/:id", (req, res) => {
-    // get items from table where id = req.params.id
-    // if no item return "no item available"
-    // return item
 
     let items = [{ id: 1, name: 'Item 1', price: 10 },
         { id: 2, name: 'Item 2', price: 20 },
